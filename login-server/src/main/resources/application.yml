@@ -1,0 +1,11 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          keycloak:
+            client-id: application-client-security
+            client-secret: 98e525e8-f856-46ed-b5d4-289ab636366d
+        provider:
+          keycloak:
+            issuer-uri: http://localhost:9999/auth/realms/demo

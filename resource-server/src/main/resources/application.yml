@@ -1,0 +1,11 @@
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://localhost:9999/auth/realms/demo
+  jpa:
+    hibernate:
+      ddl-auto: update
+server:
+  port: 9090
